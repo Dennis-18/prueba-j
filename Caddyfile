@@ -10,7 +10,7 @@
     }
 }
 
-https://prueba-j-production.up.railway.app/:{$PORT} { # site block, listens on the $PORT environment variable, automatically assigned by railway
+https://prueba-j-production.up.railway.app:{$PORT} { # site block, listens on the $PORT environment variable, automatically assigned by railway
     log { # access logs
         format console # set access log format to console mode
     }
